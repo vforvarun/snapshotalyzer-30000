@@ -15,5 +15,6 @@ e.g. `awscli configure --profile shotty`
 
 `pipenv run python shotty/shotty.py <command> <--project=PROJECT>`
 
-*command* is list, start, or stop
+*command* is instances, volumes and snapshots
+*subcommands* - depends on command
 *project* is optional
